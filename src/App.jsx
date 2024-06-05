@@ -5,6 +5,15 @@ function App() {
   const [counterValue, setCounter] = useState(5);
 
   const addValue = () => {
+    // setCounter((prevCounter) => prevCounter + 1);
+    // setCounter((prevCounter) => prevCounter + 1);
+    // setCounter((prevCounter) => prevCounter + 1);
+    // setCounter((prevCounter) => prevCounter + 1);
+    // setCounter((prevCounter) => prevCounter + 1);
+    setCounter(counterValue + 1);
+    setCounter(counterValue + 1);
+    setCounter(counterValue + 1);
+    setCounter(counterValue + 1);
     setCounter(counterValue + 1);
   };
   const removeValue = () => {
